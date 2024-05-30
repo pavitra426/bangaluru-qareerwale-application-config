@@ -1,1 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/qareerwaledb
+    username: postgres
+    password: P@vitr@369
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        globally_quoted_identifiers: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
+logging:
+  level:
+    org:
+      springframework: TRACE
