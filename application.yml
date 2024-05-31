@@ -17,4 +17,4 @@ spring:
 logging:
   level:
     org:
-      springframework: TRACE
+      springframework: INFO
